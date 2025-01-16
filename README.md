@@ -1,36 +1,36 @@
-# **Credit_Card_Financial_Dashboard**
+## **Credit_Card_Financial_Dashboard**
 
-## **Objective:**
+### **Objective:**
 To develop a comprehensive credit card weekly dashboard that provides insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
 
 ---
 
-## **Steps Taken:**
+### **Steps Taken:**
 
-### **1. Project Overview:**
+#### **1. Project Overview:**
 - Understood the problem statement and requirements for the credit card dashboard.
 
-### **2. Data Extraction:**
+#### **2. Data Extraction:**
 - Imported data into a SQL database.
 - Analyzed and understood the data to ensure it met the project's needs.
 - Extracted and imported data into Power BI for further processing and visualization.
 
-### **3. Data Processing & DAX Queries:**
+#### **3. Data Processing & DAX Queries:**
 
-#### **Created New Columns:**
+##### **Created New Columns:**
 - **Age Group**: Categorized customers into different age ranges.
 - **Income Group**: Categorized customers into various income brackets.
 - **Revenue**: Calculated total revenue per day.
 - **week_num2**: Adjusted the week numbers to ensure they sorted in ascending order.
 
-#### **Created New Measures:**
+##### **Created New Measures:**
 - **Current Week Revenue**: Calculated the revenue for the current week.
 - **Previous Week Revenue**: Calculated the revenue for the previous week.
 - **Week-on-Week Revenue Percentage**: Calculated the percentage change in revenue from one week to the next.
 
-### **4. Created Dashboards:**
+#### **4. Created Dashboards:**
 
-#### **Credit Card (CC) Transaction Report:**
+##### **Credit Card (CC) Transaction Report:**
 - **Key Performance Indicators (KPIs)**:
   - Total revenue
   - Total interest
@@ -47,7 +47,7 @@ To develop a comprehensive credit card weekly dashboard that provides insights i
 - **Slicers**:
   - Used slicers for quarter, income group, card category, gender, and week to enable interactive filtering.
 
-#### **Credit Card (CC) Customer Report:**
+##### **Credit Card (CC) Customer Report:**
 - **Key KPIs**:
   - Total revenue
   - Total interest
@@ -66,7 +66,7 @@ To develop a comprehensive credit card weekly dashboard that provides insights i
 
 ---
 
-## **Insights:**
+### **Insights:**
 - **Total Revenue**: $55 million
 - **Total Interest**: $8 million
 - **Total Transaction Amount**: $45 million
@@ -80,7 +80,7 @@ To develop a comprehensive credit card weekly dashboard that provides insights i
 
 ---
 
-## **Technologies Used:**
+### **Technologies Used:**
 - **Power BI**: Data visualization and dashboard creation.
 - **SQL**: Data extraction and transformation.
 - **DAX**: For advanced data processing and measure creation.
